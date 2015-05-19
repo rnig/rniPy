@@ -1,0 +1,131 @@
+    1  git --version
+    2  git config --global user.name "Erwin Geeraerts"
+    3  git config --global user.name "erwin@rnig.be"
+    4  git config --list
+    5  history
+    6  touch newFile
+    7  ls
+    8  mkdir pact
+    9  rmdir pact
+   10  mkdir packt
+   11  rm newFile 
+   12  cd packt/
+   13  git init
+   14  echo "master git" > README
+   15  git add README 
+   16  git commit -m "personal notes on git"
+   17  git commit -m "personal notes on git"
+   18  git config --global user.name "erwin@rnig.be"
+   19  git config --global user.name "Erwin Geeraerts"
+   20  git commit -m "personal notes on git"
+   21  git config --global user.name "Erwin Geeraerts"
+   22  git config --global user.name "erwin@rnig.be"
+   23  git init
+   24  echo "master git" > README
+   25  git add README 
+   26  git commit -m "personal notes on git"
+   27  git config --global user.email "erwin@rnig.be"
+   28  git config --global user.name "Erwin Geeraerts"
+   29  git commit -m "personal notes on git"
+   30  git log
+   31  git status
+   32  ls
+   33  emacs chaos.py
+   34  python
+   35  python3
+   36  which python
+   37  ls
+   38  cd packt/
+   39  ls
+   40  vi chaos.py
+   41  python chaos.py
+   42  git status
+   43  emacs convert.py
+   44  add chaos.py
+   45  git add chaos.py
+   46  git status
+   47  history
+   48  git commit -m "a chaotic python starter"
+   49  git status
+   50  emacs avg2.py
+   51  git status
+   52  git status -s
+   53  git status -l
+   54  git status --long
+   55  git status -sb
+   56  git add *.py
+   57  git commit -m "some more python starter stuff"
+   58  git status -sb
+   59  ls
+   60  ls
+   61  pwd
+   62  ls -latr
+   63  cd
+   64  ls -latr
+   65  less README.md 
+   66  python3
+   67  which python
+   68  pwd
+   69  ls -l .parts/bin/
+   70  .parts/bin/python3
+   71  cd packt/
+   72  ls
+   73  python3 chaos.py
+   74  vi chaos.py
+   75  python3 chaos.py
+   76  cd packt/
+   77  python3 chaos.py
+   78  python3 chaos.py
+   79  python3 chaos.py
+   80  git status -sb
+   81  git commit -m "bugfix: X -> x"
+   82  git remote add origin git@github.com:rnig/rniPy.git
+   83  git push -u origin master
+   84  ls
+   85  echo "hello" > hello.txt
+   86  git commit -m "hello"
+   87  git add hello.txt 
+   88  git commit -m "hello"
+   89  git status
+   90  git add chaos.py
+   91  git commit -m "hello 2"
+   92  git status
+   93  git status -sb
+   94  git status --long
+   95  rm chaos.py~
+   96  rm convert.py~
+   97  git status -sb
+   98  ls
+   99  git status
+  100  echo "hello world" > hello.txt
+  101  echo "hello world" > hello_world.txt
+  102  rm hello.txt 
+  103  vi avg2.py 
+  104  git add .
+  105  git status
+  106  git commit -m "hello 2"
+  107  git status -sb
+  108  git add -i
+  109  git add help
+  110  git help
+  111  git add help
+  112  git help add
+  113  ls -latr
+  114  ls -latr .git/
+  115  history
+  116  git --version
+  117  history
+  118  history | grep git
+  119  history | grep git | grep config
+  120  git config --list
+  121  ls
+  122  cd packt/
+  123  ls
+  124  cat README 
+  125  git log
+  126  git status
+  127  touch selfie.txt
+  128  git status
+  129  git status -sb
+  130  ls -latr
+  131  history > git-howto.txt
