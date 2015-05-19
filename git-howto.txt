@@ -113,19 +113,26 @@
   113  ls -latr
   114  ls -latr .git/
   115  history
-  116  git --version
-  117  history
-  118  history | grep git
-  119  history | grep git | grep config
-  120  git config --list
-  121  ls
-  122  cd packt/
-  123  ls
-  124  cat README 
-  125  git log
-  126  git status
-  127  touch selfie.txt
-  128  git status
-  129  git status -sb
-  130  ls -latr
-  131  history > git-howto.txt
+  116  cd
+  117  cd packt/
+  118  ls -latr
+  119  grep clone git-howto.txt 
+  120  history | grep pull
+  121  history | grep fetch
+  122  history | grep clone
+  123  history | grep remote
+  124  git remote --show
+  125* git remote --show 
+  126  history | grep remote
+  127  git remote --show rniPy
+  128  git config --list
+  129  git remote --show origin
+  130  git remote -v --show origin
+  131  git remote show origin
+  132  history | grep remote
+  133  git remote --rename origin rniPy
+  134  git remote rename origin rniPy
+  135  git remote show origin
+  136  git remote show rniPy
+  137  history | grep howto
+  138  history > git-howto.txt 
